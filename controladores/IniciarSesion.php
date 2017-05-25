@@ -13,7 +13,7 @@ $oUsr->clave=$_POST['pass'];
 if($oUsr->VerificarUsuarioContrasenna())
 {
     $_SESSION["Usuario"]=$oUsr;
-    header('location:http://localhost:8081/Proy1605/index.php');
+    header('location:http://localhost:8081/Proy2305/index.php');
 }
 else
 {
