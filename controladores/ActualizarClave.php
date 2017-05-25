@@ -6,11 +6,12 @@
 include '../lib/Conexion.php';
 include '../dto/Usuario.php';
 
+$oUsr = new Usuario();        
+$oUsr=$_SESSION['Usuario'];
+        
+var_dump($oUsr);/*
 
     if(isset($_SESSION["Usuario"])){
-        $oUsr = new Usuario();        
-        $oUsr=$_SESSION['Usuario'];
-        
         
         $passAntigua = $_POST['passAntigua'];
         
